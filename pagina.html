@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="sortcut icon" href="assets/icone.png" type="image/x-icon" />
+    <title>Five Corretora</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="header-content">
+
+            <h3 class="textfive">Five Corretora</h3>
+
+            <h3 class="conteudo">A melhor corretora de imóveis do Agreste pernambucano, 
+                com mais de 120 mil clientes satisfeitos!</h3>
+        </div>
+
+
+        <div class="header-logo">
+            <h1 class="logoinsite"> 
+                <img src="assets/logoSite.png">
+            </h1>
+
+            <h3 class="namelogo">Five Corretora</h3>
+
+           <h1 class="whatsapp">
+                <img src="assets/whatsapp.png">
+           </h1>
+
+           <h3 class="number">(87) 9.9677-7709</h3>
+
+           <h1 class="location"> 
+               <img src="assets/location.png">
+           </h1>
+
+           <h3 class="namelocation"> Rua Pedro Paulo Araújo Nº 26, Centro, Capoeiras-PE </h3>
+
+        </div>
+
+        
+    </header>
+
+    <main>
+
+        <div>
+            <h1 class="titulo">Cadastre-se</h1>
+            <p class="subtitulo">Marque uma conversa com um dos 
+                nossos consultores mais próximo de você!</p>
+        </div>
+
+        <form class="form" method="POST" action="./pagina2.php"> 
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+
+            <div class="campo"> 
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="campo">
+                <label><strong>Qual o melhor dia para você?</strong></label>
+                <label>
+                    <input type="radio" name="dia" value="segunda">Segunda-Feira
+                </label>
+                <label>
+                    <input type="radio" name="dia" value="quarta">Quarta-Feirra
+                </label>
+                <label>
+                    <input type="radio" name="dia" value="sexta">Sexta-Feira
+                </label>
+
+            </div>
+
+            <div class="campo">
+                <label><strong>Deixe uma mensagem para nós</strong></label>
+                <textarea rows="6" style="width: 26em" id="mensagem" name="mensagem"></textarea>
+            </div>
+
+            <button class="botao" type="submit"><strong>Enviar</strong></button>
+        </form>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="conteiner">
+            <h2 class="textrodape">Copyright © Five Cirretora. Todos os direitos reservados </h2>
+        </div>
+    </footer>
+
+</body>
+</html>
